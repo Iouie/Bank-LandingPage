@@ -1,6 +1,6 @@
 export default function Main() {
   return (
-    <main className="relative bottom-[16rem] z-10 flex flex-col w-full">
+    <section className="flex flex-col w-full relative bottom-[16rem]">
       <div className="flex bg-[#fafafa]">
         <section
           className="flex flex-col justify-center gap-y-6 pl-12 
@@ -90,7 +90,7 @@ export default function Main() {
           </p>
         </div>
 
-        <div className="flex px-12 gap-x-2 my-28">
+        <div className="flex px-12 gap-x-2 my-24">
           <div className="flex flex-col">
             <img
               src="/icon-online.svg"
@@ -144,6 +144,6 @@ export default function Main() {
           </div>
         </div>
       </section>
-    </main>
+    </section>
   );
 }

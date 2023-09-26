@@ -1,16 +1,23 @@
 export default function Main() {
   return (
-    <main className="relative bottom-[16rem] -z-10 flex justify-around">
+    <main className="relative bottom-[16rem] z-10 flex flex-col w-full">
       <div className="flex bg-[#fafafa]">
-        <section className="flex flex-col  items-center justify-center gap-y-6">
-          <h2 className="text-6xl text-[#2d3049] w-1/2">
+        <section
+          className="flex flex-col justify-center gap-y-6 pl-12 
+        "
+        >
+          <h2 className="text-4xl text-[#2d3049] leading-snug">
             Next generation digital banking
           </h2>
-          <p className="text-[18px] text-[#a7a6ab] w-1/2">
+          <p className="text-[18px] text-[#a7a6ab] ">
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
+
+          <button className="bg-[#31d35c] text-white z-30 py-2 w-[10rem] rounded-3xl hover:cursor-pointer">
+            Request Invite
+          </button>
         </section>
         <section className="overflow-hidden">
           <svg
@@ -64,8 +71,79 @@ export default function Main() {
               />
             </g>
           </svg>
+          <img
+            src="/image-mockups.png"
+            alt="phone"
+            className="absolute top-[20%] right-[-10rem] h-100"
+          ></img>
         </section>
       </div>
+
+      <section className="bg-[#f4f5f7]">
+        <div className="flex flex-col justify-center gap-y-6 pl-12 w-2/5 bg-[#f4f5f7] mb-16">
+          <h2 className="text-4xl text-[#2d3049] leading-snug mt-6">
+            Why choose Easybank?
+          </h2>
+          <p className="text-[18px] text-[#a7a6ab]">
+            We leverage Open Banking to turn your bank into your financial hub.
+            Control your finances like never before.
+          </p>
+        </div>
+
+        <div className="flex px-12 gap-x-2 my-28">
+          <div className="flex flex-col">
+            <img
+              src="/icon-online.svg"
+              alt="bank-logo"
+              className="w-[72px] h-[72px]"
+            />
+            <h1 className="font-medium py-6 text-xl">Online Banking</h1>
+            <p>
+              Our modern web and mobile applications allow you to keep track of
+              your finances wherever you are in the world.
+            </p>
+          </div>
+
+          <div className="flex flex-col">
+            <img
+              src="/icon-budgeting.svg"
+              alt="budget-logo"
+              className="w-[72px] h-[72px]"
+            />
+            <h1 className="font-medium py-6 text-xl">Simple Budgeting</h1>
+            <p>
+              See exactly where your money goes each month. Receive
+              notifications when you&apos;re close to hitting your limits.
+            </p>
+          </div>
+
+          <div className="flex flex-col">
+            <img
+              src="/icon-onboarding.svg"
+              alt="onboarding-logo"
+              className="w-[72px] h-[72px]"
+            />
+            <h1 className="font-medium py-6 text-xl ">Fast Onboarding</h1>
+            <p>
+              We don&apos;t do branches. Open your account in minutes online and
+              start taking control of your finances right away.
+            </p>
+          </div>
+
+          <div className="flex flex-col">
+            <img
+              src="/icon-online.svg"
+              alt="bank-logo"
+              className="w-[72px] h-[72px]"
+            />
+            <h1 className="font-medium py-6 text-xl">Open API</h1>
+            <p>
+              Manage your savings, investments, pension, and much more from one
+              account. Tracking your money has never been easier.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex py-10 justify-around bg-white">
+    <nav className="flex py-6  bg-white z-30 relative justify-around">
       <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
         <defs>
           <linearGradient id="a" x1="72.195%" x2="17.503%" y1="0%" y2="100%">
@@ -21,7 +21,7 @@ export default function Navbar() {
           </g>
         </g>
       </svg>
-      <ul className="flex gap-x-6">
+      <ul className="flex gap-x-6 text-[#b3b3b5] w-1/3 ">
         <li>Home</li>
         <li>About</li>
         <li>Contact</li>

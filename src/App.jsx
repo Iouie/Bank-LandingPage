@@ -4,7 +4,7 @@ import LatestArticle from "./components/LatestArticle";
 
 function App() {
   return (
-    <div className="bg-[#fafafa]">
+    <div className="bg-[#fafafa] overflow-hidden">
       <Navbar />
       <Main />
       <LatestArticle />

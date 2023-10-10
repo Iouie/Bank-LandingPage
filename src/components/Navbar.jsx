@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex py-6  bg-white z-30 relative justify-around">
+    <nav className="flex py-6  bg-white z-30 relative justify-around items-center">
       <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
         <defs>
           <linearGradient id="a" x1="72.195%" x2="17.503%" y1="0%" y2="100%">
@@ -21,12 +21,22 @@ export default function Navbar() {
           </g>
         </g>
       </svg>
-      <ul className="flex gap-x-6 text-[#b3b3b5] w-1/3 ">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Blog</li>
-        <li>Career</li>
+      <ul className="flex gap-x-6 text-[#b3b3b5] w-1/3">
+        <li className="hover:cursor-pointer hover:border-b-4 border-[#31d35c]">
+          Home
+        </li>
+        <li className="hover:cursor-pointer hover:border-b-4 border-[#31d35c]">
+          About
+        </li>
+        <li className="hover:cursor-pointer hover:border-b-4 border-[#31d35c]">
+          Contact
+        </li>
+        <li className="hover:cursor-pointer hover:border-b-4 border-[#31d35c]">
+          Blog
+        </li>
+        <li className="hover:cursor-pointer hover:border-b-4 border-[#31d35c]">
+          Career
+        </li>
       </ul>
       <button className="bg-[#31d35c] text-white py-2 px-8 rounded-3xl">
         Request Invite

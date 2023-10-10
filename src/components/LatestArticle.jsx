@@ -10,7 +10,7 @@ export default function LatestArticle() {
             className="rounded-md mb-4"
           />
           <p className="text-[#e8e7ec] text-xs mb-4 pl-4">By Claire Robinson</p>
-          <h3 className="text-2xl pl-4 w-[70%] mb-4">
+          <h3 className="text-2xl pl-4 w-[70%] mb-4 hover:cursor-pointer hover:text-[#31d35c]">
             Receive money in any currency with no fees
           </h3>
           <p className=" pl-4 w-[85%] mb-6">
@@ -26,7 +26,7 @@ export default function LatestArticle() {
             className="rounded-md mb-4 "
           />
           <p className="text-[#e8e7ec] text-xs mb-4 pl-4">By Wilson Hutton</p>
-          <h3 className="text-2xl pl-4 w-[70%] mb-4">
+          <h3 className="text-2xl pl-4 w-[70%] mb-4 hover:cursor-pointer hover:text-[#31d35c]">
             Treat yourself without worrying about money
           </h3>
           <p className=" pl-4 w-[85%] mb-6">
@@ -42,7 +42,7 @@ export default function LatestArticle() {
             className="rounded-md mb-4 "
           />
           <p className="text-[#e8e7ec] text-xs mb-4 pl-4">By Wilson Hutton</p>
-          <h3 className="text-2xl pl-4 w-[70%] mb-4">
+          <h3 className="text-2xl pl-4 w-[70%] mb-4 hover:cursor-pointer hover:text-[#31d35c]">
             Take your Easybank card wherever you go
           </h3>
           <p className=" pl-4 w-[85%] mb-6">
@@ -58,7 +58,7 @@ export default function LatestArticle() {
             className="rounded-md mb-4"
           />
           <p className="text-[#e8e7ec] text-xs mb-4 pl-4">By Claire Robinson</p>
-          <h3 className="text-2xl pl-4 w-[70%] mb-4">
+          <h3 className="text-2xl pl-4 w-[70%] mb-4 hover:cursor-pointer hover:text-[#31d35c]">
             Our invite-only Beta accounts are now live!
           </h3>
           <p className=" pl-4 w-[85%] mb-6">

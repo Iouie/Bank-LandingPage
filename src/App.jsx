@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import LatestArticle from "./components/LatestArticle";
+import FooterComponent from "./components/FooterComponent";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Main />
       <LatestArticle />
+      <FooterComponent />
     </div>
   );
 }

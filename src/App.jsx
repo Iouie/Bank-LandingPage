@@ -3,18 +3,22 @@ import Main from "./components/Main";
 import LatestArticle from "./components/LatestArticle";
 import FooterComponent from "./components/FooterComponent";
 import MobileComponent from "./components/MobileComponent";
-import { useState, useEffect } from "react";
+
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent); // check if using mobile device
 
 function App() {
   return (
     <>
-      {/* <div className="bg-[#fafafa] overflow-hidden">
-        <Navbar />
-        <Main />
-        <LatestArticle />
-        <FooterComponent />
-      </div> */}
-      <MobileComponent />
+      {isMobile ? (
+        <MobileComponent />
+      ) : (
+        <div className="bg-[#fafafa] overflow-hidden">
+          <Navbar />
+          <Main />
+          <LatestArticle />
+          <FooterComponent />
+        </div>
+      )}
     </>
   );
 }
